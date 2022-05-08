@@ -1,7 +1,10 @@
 package com.lvyni.workshopmongo.dto;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.lvyni.workshopmongo.domain.Post;
 import com.lvyni.workshopmongo.domain.User;
 
 public class UserDTO implements Serializable {
@@ -11,6 +14,8 @@ public class UserDTO implements Serializable {
 	private String name;
 	private String email;
 	
+	
+ 	
 	public UserDTO() {	
 	}
 	
